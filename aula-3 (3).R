@@ -3,6 +3,7 @@ rm(list = ls())
 
 # =========== Área de bibliotecas =================
 # Pacotes necessários
+
 if (!require("httr")) install.packages("httr")
 if (!require("readxl")) install.packages("readxl")
 if (!require("writexl")) install.packages("writexl")
